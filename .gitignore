@@ -1,13 +1,1 @@
-# Ignore virtual environment
 .venv/
-venv/
-env/
-*.env
-*.venv
-Pipfile
-Pipfile.lock
-# Ignore Python bytecode and cache
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
