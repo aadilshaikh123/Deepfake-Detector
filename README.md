@@ -38,16 +38,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ### 🧑‍💻 Run the Streamlit App
 streamlit run app.py
-
-###📊 Dataset
-The dataset used for training can be found here: [📚 Deepfake and Real Images Dataset](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images)
-###🔎 Usage
+### 📊 Dataset
+The dataset used for training can be found here: https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
+### 🔎 Usage
 Run app.py and upload an image to classify it.
 The model returns whether the image is Real or Fake along with the confidence score.
 ### 🧠 Training the Model
 If you want to train the model from scratch:
 python train.py
-###📡 Upload Model to GitHub Using Git LFS
+### 📡 Upload Model to GitHub Using Git LFS
 If you modify and retrain the model:
 ### Make sure Git LFS is installed
 git lfs install
