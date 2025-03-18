@@ -38,6 +38,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ### 🧑‍💻 Run the Streamlit App
 streamlit run app.py
+
 ###📊 Dataset
 The dataset used for training can be found here: [📚 Deepfake and Real Images Dataset](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images)
 ###🔎 Usage
